@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
-    border: solid 2px;
+    border: solid 1px;
 }
 
 /* palette */
@@ -19,6 +19,21 @@
 /* general */
 .container {
     max-width: 1200px;
+    margin: auto;
 }
 
 /* header */
+.d-flex-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav {
+    background-color: var(--color-primary-dark);
+}
+
+nav ul {
+    list-style: none;
+}
