@@ -3,9 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
+    border: solid 2px;
+}
+
+/* palette */
+:root {
+	--color-primary-dark: #255ee9;
+	--color-primary-light: #7289da;
+	--color-neutral-darker: #000000;
+	--color-neutral-dark: #23272a;
+	--color-neutral-light: #f6f6f6;
+	--color-neutral-lightest: #ffffff;
 }
 
 /* general */
 .container {
-    
+    max-width: 1200px;
 }
+
+/* header */
