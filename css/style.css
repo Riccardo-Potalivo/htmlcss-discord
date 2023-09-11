@@ -10,10 +10,12 @@
 :root {
 	--color-primary-dark: #255ee9;
 	--color-primary-light: #7289da;
+    --color-secondary-dark: #313338;
 	--color-neutral-darker: #000000;
 	--color-neutral-dark: #23272a;
 	--color-neutral-light: #f6f6f6;
 	--color-neutral-lightest: #ffffff;
+    --box-shadow-dark: #4b4b4b70;
 }
 
 /* general */
@@ -38,7 +40,7 @@
 }
 
 .button-large{
-    padding: 14px 20px;
+    padding: 14px 24px;
     margin: 10px;
     border-radius: 100px;
     font-size: 1.5rem;
@@ -50,7 +52,21 @@
 
 a {
     text-decoration: none;
-    color: var(--color-neutral-lightest);
+    color: inherit
+}
+
+.a-hover:hover {
+    text-decoration: underline;
+}
+
+.button-light:hover{
+    color: var(--color-primary-light);
+    box-shadow: -2px 5px 15px 2px var(--box-shadow-dark);
+}
+
+.button-dark:hover{
+    background-color: var(--color-secondary-dark);
+    box-shadow: -2px 5px 15px 2px var(--box-shadow-dark);
 }
 
 /* header */
@@ -106,5 +122,5 @@ h1 {
     font-size: 1.5rem;
     text-align: center;
     padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
