@@ -147,13 +147,13 @@ h1 {
 
 /* main */
 
-/* .wave {
-    color: var(--color-neutral-dark);
+.wave {
+    color: var(--color-neutral-light);
     display: block;
 }
 .wave.wave-bottom {
     transform:scaley(-1);
-} */
+}
 
 main>.white-background{
     background-color: var(--color-neutral-lightest);
