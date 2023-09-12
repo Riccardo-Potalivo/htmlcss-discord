@@ -36,6 +36,12 @@
     background-color: var(--color-neutral-dark);
 }
 
+.button-primary-light {
+    color: var(--color-neutral-lightest);
+    background-color: var(--color-primary-light);
+}
+
+
 .button-small {
     padding: 10px 14px;
     border-radius: 100px;
@@ -154,6 +160,10 @@ main>.gray-background{
     padding: 100px 0;
 }
 
+.img-full-width {
+    width: 100%;
+}
+
 .d-flex-main {
     display: flex;
     flex-flow: row;
@@ -165,12 +175,36 @@ main>.gray-background{
     width: 60%;
 }
 
-.image-flex-section>img {
-    width: 100%;
+.row-reverse {
+    flex-direction: row-reverse;
 }
-
 
 .article-flex-section {
     width: 40%;
-    padding: 40px;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+main>div:last-child {
+    text-align: center;
+}
+
+.description-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+main h4 {
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+
+.starred h4 {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
