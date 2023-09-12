@@ -36,9 +36,9 @@
     background-color: var(--color-neutral-dark);
 }
 
-.button-primary-light {
+.button-primary-dark {
     color: var(--color-neutral-lightest);
-    background-color: var(--color-primary-light);
+    background-color: var(--color-primary-dark);
 }
 
 
@@ -77,13 +77,18 @@ ul {
     text-decoration: underline;
 }
 
-.button-light:hover{
+.button-light:hover {
     color: var(--color-primary-light);
     box-shadow: -2px 5px 15px 2px var(--box-shadow-dark);
 }
 
-.button-dark:hover{
+.button-dark:hover {
     background-color: var(--color-secondary-dark);
+    box-shadow: -2px 5px 15px 2px var(--box-shadow-dark);
+}
+
+.button-primary-dark:hover {
+    background-color: var(--color-primary-light);
     box-shadow: -2px 5px 15px 2px var(--box-shadow-dark);
 }
 
@@ -269,4 +274,10 @@ footer ul>span {
 
 footer li {
     margin-top: 15px;
+}
+
+aside {
+    border-top: solid 2px var(--color-primary-light);
+    margin-top: 50px;
+    padding-top: 20px;
 }
