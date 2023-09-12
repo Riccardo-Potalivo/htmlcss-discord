@@ -124,3 +124,12 @@ h1 {
     padding: 15px;
     margin-bottom: 20px;
 }
+
+/* main */
+
+.wave-1hkxOo {
+    color: var(--color-neutral-dark);
+}
+.wave-1hkxOo.wave-bottom {
+    transform:scaley(-1);
+}
